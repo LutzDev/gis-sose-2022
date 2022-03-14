@@ -1,6 +1,8 @@
 <template>
-  <h4 v-if="headline">{{ headline }}</h4>
-  <p><slot/></p>
+  <div class="Text">
+    <h4 v-if="headline">{{ headline }}</h4>
+    <p><slot/></p>
+  </div>
 </template>
 
 <script>

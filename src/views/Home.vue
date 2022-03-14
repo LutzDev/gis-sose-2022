@@ -1,5 +1,5 @@
 <template>
-  <Header v-bind:example-button="true" v-bind:script-button="true"/>
+<!--  <Header v-bind:example-button="true" v-bind:script-button="true"/>-->
   <h1>Über diesen Kurs</h1>
   <Text>
     Über diesen Kurs wird das Praktikum für das Modul Grundlagen interaktiver Systeme organisiert. In diesem Kurs finden sie die Praktikumsaufgaben, welche das in der Vorlesung gelernte Wissen festigen sollen. Betreuer des Praktikums sind Lutz Weigold und Philipp Oeschger.
@@ -23,6 +23,36 @@
       <Text headline="Abgabe als GitHub-Link">
         Die Erste Möglichkeit ist die Abgabe der Aufgaben über einen Verweis auf ein für den Kurs angelegtes GitHub-Repository. Geben Sie hierfür über Felix eine Text-Datei ab, welche einen Link auf Ihr angelegtes GitHub-Repository beinhaltet. Bitte fügen Sie Ihrem GitHub-Repository eine <b>README</b> hinzu, welche zu jeder Aufgabe folgende zwei Verweise enthält:
       </Text>
+      <List>
+        <li>Verweis auf den Root-Ordner der Aufgabe</li>
+        <li>Verweis auf eine GitHub-Page</li>
+      </List>
+      <Text headline="Abgabe als Upload in Felix">
+        Als Alternative können Sie das Uploadsystem von Felix benutzen, um den Quellcode Ihrer Aufgabe als zip-Datei abzugeben.
+      </Text>
+    </Section>
+
+    <Section headline="Deadlines">
+      <Text>
+        Die Aufgaben sind wöchentlich abzugeben. Verspätete Abgaben werden nicht berücksichtigt. Die Deadlines für den jeweiligen Studiengang sind:
+      </Text>
+      <List>
+        <li>MIB: sonntags 18:00 Uhr</li>
+        <li>OMB: mittwochs 18:00 Uhr</li>
+      </List>
+    </Section>
+
+    <Section headline="Fragen und Probleme">
+      <Text>
+        Für Fragen und Probleme, welche außerhalb des Praktikumsblocks auftreten, steht Ihnen der Forumsbereich des Kurses zur Verfügung. Dort können Sie Ihre Fragen und Problem stellen und wir werden versuchen, diese möglichst zeitnah zu beantworten.
+      </Text>
+      <Text>
+        Außerdem wurde für die Veranstaltung ein Matrix Chatroom erstellt: <a href="https://matrix.to/#/#GIS-OMB-MIB:hs-furtwangen.de" target="_blank">https://matrix.to/#/#GIS-OMB-MIB:hs-furtwangen.de</a>
+      </Text>
+      <List headline="Außerdem wurde für die Veranstaltung ein Matrix Chatroom erstellt:">
+        <li>MIB: sonntags 18:00 Uhr</li>
+        <li>OMB: mittwochs 18:00 Uhr</li>
+      </List>
     </Section>
 
   </Sections>
