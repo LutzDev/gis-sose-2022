@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-100 rounded-lg p-8">
+  <div class="bg-slate-100 rounded-lg p-8">
     <img :src="`src/assets/img/${fileName}`" class="object-cover h-96 m-auto">
     <p class="text-center italic">{{ imgTitle }}</p>
   </div>

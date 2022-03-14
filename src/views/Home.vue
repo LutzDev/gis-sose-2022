@@ -1,5 +1,5 @@
 <template>
-  <Header/>
+  <Header v-bind:example-button="true" v-bind:script-button="true"/>
   <h1>First headline</h1>
   <Sections>
     <Section headline="Test">
