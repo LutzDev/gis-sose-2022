@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [vue()],
   define: {
     'process.env': {}
-  }
+  },
+  base: "/gis-sose-2022/"
 })
