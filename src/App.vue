@@ -9,7 +9,7 @@ import Header from "./components/Header.vue";
   <div class="App px-12 py-24">
 <!--    <router-link to="/">Ka</router-link>
     <router-link :to="{name: 'Home'}">Home</router-link>
-    <router-link :to="{name: 'Exe1'}">Exe1</router-link>-->
+    <router-link :to="{name: 'Abgabeformat'}">Abgabeformat</router-link>-->
     <router-view/>
   </div>
 </template>

@@ -32,22 +32,15 @@
 
     <Section headline="Abgabeformat">
       <Text>
-        Ein Großteil der Praktikumsaufgaben bauen aufeinander auf. Bitte legen
-        Sie deshalb für jede Praktikumsaufgabe einen neuen Ordner an und
-        kopieren Sie die relevanten Dateien der vorigen Abgabe in den Ordner der
-        neuen Aufgabe.
-      </Text>
-      <Text>
         Die Abgabe der Aufgaben findet über den zur Verfügung stehenden
-        Abgabebereich der jeweiligen Aufgabe in Felix statt. Für die Abgabe der
-        Aufgabe stehen Ihnen zwei Optionen zur Verfügung.
+        Abgabebereich der jeweiligen Aufgabe in Felix statt. Für das
+        Abgabeformat der Aufgaben stehen Ihnen zwei Optionen zur Verfügung.
       </Text>
       <Text headline="Abgabe als GitHub-Link">
-        Die Erste Möglichkeit ist die Abgabe der Aufgaben über einen Verweis auf
-        ein für den Kurs angelegtes GitHub-Repository. Geben Sie hierfür über
-        Felix eine Text-Datei ab, welche einen Link auf Ihr angelegtes
-        GitHub-Repository beinhaltet. Bitte fügen Sie Ihrem GitHub-Repository
-        eine
+        Zum einen kann die Abgabe über ein GitHub-Repository erfolgen. Geben Sie
+        hierfür über Felix eine <b>PDF-Datei</b> ab, welche einen Link auf Ihr
+        angelegtes GitHub-Repository beinhaltet. Bitte fügen Sie Ihrem
+        GitHub-Repository eine
         <a
           href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes"
           target="_blank"
@@ -66,7 +59,7 @@
       </List>
       <Text headline="Abgabe als Upload in Felix">
         Als Alternative können Sie das Uploadsystem von Felix benutzen, um den
-        Quellcode Ihrer Aufgabe als zip-Datei abzugeben.
+        Quellcode Ihrer Aufgabe als <b>zip-Datei</b> abzugeben.
       </Text>
     </Section>
 
@@ -77,8 +70,8 @@
         Studiengang sind:
       </Text>
       <List>
-        <li>MIB: Sonntag 18:00 Uhr</li>
-        <li>OMB: Montag 18:00 Uhr</li>
+        <li>MIB: Sonntags 18:00 Uhr</li>
+        <li>OMB: Montags 18:00 Uhr</li>
       </List>
     </Section>
 
@@ -109,7 +102,7 @@
         >
       </Text>
       <List
-        headline="Außerdem wurde für die Veranstaltung ein Matrix Chatroom erstellt:"
+        headline="Darüber hinaus können Sie uns auch direkt per E-Mail kontaktieren:"
       >
         <li>
           Philipp Oeschger:
@@ -125,31 +118,6 @@
     </Section>
   </Sections>
   <Footer> </Footer>
-
-  <!--  <Footer>
-    <FooterItem>
-      <IconHeadline headline="Links" v-bind:info-icon="true"/>
-      <List>
-        <li>fetch, Promise, async/await</li>
-        <li>List</li>
-        <li>Node</li>
-      </List>
-    </FooterItem>
-    <FooterItem>
-      <IconHeadline headline="Kontaktaufnahme" v-bind:contact-icon="true"/>
-      <List>
-        <li>Philipp Oeschger: <a href="mailto:p.oeschger@hs-furtwangen.de">p.oeschger@hs-furtwangen.de</a></li>
-        <li>Lutz Weigold: <a href="l.weigold@hs-furtwangen.de">l.weigold@hs-furtwangen.de</a></li>
-      </List>
-    </FooterItem>
-    <FooterItem>
-      <IconHeadline headline="Abgabetermin" v-bind:deadline-icon="true"/>
-      <List>
-        <li>MIB: sonntags 18:00 Uhr</li>
-        <li>OMB: mittwochs 18:00 Uhr</li>
-      </List>
-    </FooterItem>
-  </Footer>-->
 </template>
 
 <script>

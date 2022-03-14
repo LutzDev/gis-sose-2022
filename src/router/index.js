@@ -1,21 +1,16 @@
-import {createRouter, createWebHistory} from "vue-router";
+import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
-import Exe1 from "../views/Exe1.vue";
 import TopicSelection from "../views/TopicSelection.vue";
 import TutorialDevEnv from "../views/TutorialDevEnv.vue";
+import Abgabeformat from "../views/Abgabeformat.vue";
 
-const basePath= "/gis-sose-2022"
+const basePath = "/gis-sose-2022"
 
 const routes = [
     {
         path: `${basePath}/Home`,
         name: 'Home',
         component: Home
-    },
-    {
-        path: `${basePath}/Exe1`,
-        name: 'Exe1',
-        component: Exe1
     },
     {
         path: `${basePath}/Themenvergabe`,
@@ -26,11 +21,16 @@ const routes = [
         path: `${basePath}/Entwicklungsumgebung`,
         name: 'EnvTutorial',
         component: TutorialDevEnv
+    },
+    {
+        path: `${basePath}/Abgabeformat`,
+        name: 'Abgabeformat',
+        component: Abgabeformat
     }
 ]
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHashHistory(process.env.BASE_URL),
     routes
 })
 
