@@ -9,9 +9,9 @@
       <Text>
         das ist ein weiterer test
       </Text>
-      <List>
+      <List headline="Die Headline">
         <li>fetch, Promise, async/await</li>
-        <li>List</li>
+        <li>Neue liste</li>
         <li>Node</li>
         <li>asda</li>
       </List>
@@ -42,7 +42,7 @@
     <FooterItem>
       <IconHeadline headline="meineeadline" v-bind:contact-icon="true"/>
       <List>
-        <li>fetch, Promise, async/await</li>
+        <li>fetch, <a>Promise</a>, async/await</li>
         <li>List</li>
         <li>Node</li>
       </List>

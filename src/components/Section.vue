@@ -1,7 +1,7 @@
 <template>
   <div class="Section py-8">
     <h3>{{ headline }}</h3>
-    <div class="space-y-2">
+    <div class="space-y-4">
       <slot/>
     </div>
   </div>

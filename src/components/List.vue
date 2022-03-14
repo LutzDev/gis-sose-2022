@@ -1,13 +1,17 @@
 <template>
-  <ul class="list-disc pl-6">
-    <slot/>
+  <div class="List">
+    <h4 v-if="headline">{{ headline }}</h4>
+    <ul class="list-disc pl-6">
+      <slot/>
+    </ul>
+  </div>
 
-  </ul>
 </template>
 
 <script>
 export default {
-  name: "List"
+  name: "List",
+  props: ["headline"]
 }
 </script>
 

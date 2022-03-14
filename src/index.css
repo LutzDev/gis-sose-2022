@@ -6,11 +6,31 @@
 @layer base {
     h1 {
         @apply text-3xl;
+        @apply text-slate-700;
     }
 
     h3 {
         @apply text-lg;
         @apply font-bold;
+    }
+
+    h4{
+        @apply font-medium;
+    }
+
+    p, li, ul, h3, h4 {
+        @apply text-slate-600;
+    }
+
+    li, p, ul{
+        @apply text-base;
+    }
+
+    a {
+      @apply text-green-500;
+        @apply font-medium;
+        @apply hover:text-green-300;
+        @apply cursor-pointer;
     }
 }
 
