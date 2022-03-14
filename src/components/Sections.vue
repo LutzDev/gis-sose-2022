@@ -1,10 +1,12 @@
 <template>
-  <p><slot/></p>
+  <div class="divide-y">
+    <slot/>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Text"
+  name: "Sections"
 }
 </script>
 

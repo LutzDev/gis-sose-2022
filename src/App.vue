@@ -1,22 +1,17 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import HelloWorld from './components/HelloWorld.vue'
 import Footer from './components/Footer.vue'
-import Tasks from "./components/Tasks.vue";
 import Header from "./components/Header.vue";
-import Introduction from "./components/Introduction.vue";
 </script>
 
 <template>
-<!--  <Header />
-  <Introduction />
-  <Tasks />
-  <Footer title="asdasd"/>-->
-  <router-link to="/">Ka</router-link>
-  <router-link :to="{name: 'Home'}">Home</router-link>
-  <router-link :to="{name: 'Exe1'}">Exe1</router-link>
-  <router-view/>
+  <div class="App px-12 py-24">
+    <router-link to="/">Ka</router-link>
+    <router-link :to="{name: 'Home'}">Home</router-link>
+    <router-link :to="{name: 'Exe1'}">Exe1</router-link>
+    <router-view/>
+  </div>
 </template>
 
 <style>

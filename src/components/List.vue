@@ -1,10 +1,13 @@
 <template>
-  <p><slot/></p>
+  <ul class="list-disc pl-6">
+    <slot/>
+
+  </ul>
 </template>
 
 <script>
 export default {
-  name: "Text"
+  name: "List"
 }
 </script>
 
