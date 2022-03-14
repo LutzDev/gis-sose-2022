@@ -1,6 +1,9 @@
 <template>
   <Header v-bind:example-button="true" v-bind:script-button="true"/>
   <h1>First headline</h1>
+  <Code language="JavaScript">
+    Let Test = 4;
+  </Code>
   <Sections>
     <Section headline="Test">
       <Text>
@@ -53,6 +56,8 @@
       </List>
     </FooterItem>
   </Footer>
+
+
 </template>
 
 <script>
@@ -64,9 +69,10 @@ import Sections from "../components/Sections.vue";
 import Header from "../components/Header.vue";
 import IconHeadline from "../components/IconHeadline.vue";
 import Image from "../components/Image.vue";
+import Code from "../components/Code.vue";
 export default {
   name: "Home",
-  components: {Image, IconHeadline, Header, Sections, List, Section, Footer, Text}
+  components: {Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text}
 }
 </script>
 
