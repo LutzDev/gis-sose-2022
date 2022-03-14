@@ -9,10 +9,14 @@ import Introduction from "./components/Introduction.vue";
 </script>
 
 <template>
-  <Header />
+<!--  <Header />
   <Introduction />
   <Tasks />
-  <Footer title="asdasd"/>
+  <Footer title="asdasd"/>-->
+  <router-link to="/">Ka</router-link>
+  <router-link :to="{name: 'Home'}">Home</router-link>
+  <router-link :to="{name: 'Exe1'}">Exe1</router-link>
+  <router-view/>
 </template>
 
 <style>
