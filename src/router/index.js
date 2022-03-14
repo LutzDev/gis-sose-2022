@@ -1,6 +1,6 @@
-import {createRouter, createWebHistory} from "vue-router";
+import {createRouter, createWebHashHistory, createWebHistory} from "vue-router";
 import Home from "../views/Home.vue";
-import Exe1 from "../views/Exe1.vue";
+import Abgabeformat from "../views/Abgabeformat.vue";
 
 const basePath= "/gis-sose-2022"
 
@@ -11,14 +11,14 @@ const routes = [
         component: Home
     },
     {
-        path: `${basePath}/Exe1`,
-        name: 'Exe1',
-        component: Exe1
+        path: `${basePath}/Abgabeformat`,
+        name: 'Abgabeformat',
+        component: Abgabeformat
     }
 ]
 
 const router = createRouter({
-    history: createWebHistory(process.env.BASE_URL),
+    history: createWebHashHistory(process.env.BASE_URL),
     routes
 })
 
