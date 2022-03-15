@@ -10,7 +10,7 @@
 
     <Section headline="Beispielstruktur einer einfachen Webanwendung">
       <Text>
-        Diese Projektstruktur dient für einfache Webanwendungen <b>ohne</b> serverseitige Verarbeitung.
+        Diese Projektstruktur dient für einfache Webanwendungen <b>ohne</b> serverseitige Verarbeitung. Diese Projektstruktur steht Ihnen unter dem Reiter <a href="https://felix.hs-furtwangen.de/auth/RepositoryEntry/4072407874/CourseNode/105309104187283" target="_blank">"Vorlagen -> projektstruktur-einfache-vorlage.zip"</a> in Felix zum Download zur Verfügung.
       </Text>
       <pre v-highlightjs="sourcecode"><code :class="language">
         └─┬ root
@@ -25,10 +25,7 @@
           | └ ... // Bsp. Bilder, SVG, ...
           |
           ├─ index.html
-          ├─ ... // weitere .html Dateien
-          |
-          ├─ package-lock.json
-          └─ package.json
+          └─ ... // weitere .html Dateien
       </code></pre>
     </Section>
 
