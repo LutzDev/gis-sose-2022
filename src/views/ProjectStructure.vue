@@ -90,10 +90,11 @@ import Header from "../components/Header.vue";
 import IconHeadline from "../components/IconHeadline.vue";
 import Image from "../components/Image.vue";
 import Code from "../components/Code.vue";
+import Highlight from "../components/Highlight.vue";
 
 export default {
   name: "ProjectStructure",
-  components: {Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text},
+  components: {Highlight, Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text},
   mounted() {
     console.log("Home geladen")
     let recaptchaScript = document.createElement('script')
