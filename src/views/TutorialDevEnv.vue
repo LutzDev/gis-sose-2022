@@ -1,5 +1,5 @@
 <template>
-  <Header v-bind:example-button="false" v-bind:script-button="false"/>
+  <Header v-bind:example-button="false" v-bind:script-button="false" />
   <h1>Einrichten der Entwicklungsumgebung</h1>
   <Text>
     Wir werden in diesem Praktikum mit dem Editor Visual Studio Code arbeiten.
@@ -118,7 +118,7 @@ import IconHeadline from "../components/IconHeadline.vue";
 import FooterItem from "../components/FooterItem.vue";
 import Image from "../components/Image.vue";
 export default {
-  name: "Home",
+  name: "TutorialDevEnv",
   components: {
     IconHeadline,
     Header,
@@ -131,11 +131,11 @@ export default {
     Image,
   },
   mounted() {
-    console.log("Home geladen")
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'scripts/darkMode.js')
-    document.head.appendChild(recaptchaScript)
-  }
+    console.log("Home geladen");
+    let recaptchaScript = document.createElement("script");
+    recaptchaScript.setAttribute("src", "scripts/darkMode.js");
+    document.head.appendChild(recaptchaScript);
+  },
 };
 </script>
 

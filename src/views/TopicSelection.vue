@@ -1,15 +1,25 @@
 <template>
-  <Header v-bind:example-button="false" v-bind:script-button="false"/>
+  <Header v-bind:example-button="false" v-bind:script-button="false" />
   <h1>Themenvergabe</h1>
-  <Text>
-    Die Vergabe der Themen erfolgt über den Themenvergabe-Bereich des jeweiligen
-    Kurses. Aus dem bereitgestellten Themenpool können Projekte ausgewählt
-    werden. Jeder Student bekommt ein eigenes Thema, dass er im Laufe des
-    Semesters bearbeiten soll. Themen können innerhalb des Studiengangs nur
-    <b>einmal</b> Vergeben werden. Suche Sie sich bitte bis spätestens zum
-    <b>22.03.2022</b> ein Thema aus.
-  </Text>
   <Sections>
+    <Section>
+      <Text>
+        Die Vergabe der Themen erfolgt über den Themenvergabe-Bereich des
+        jeweiligen Kurses. Aus dem bereitgestellten Themenpool können Projekte
+        ausgewählt werden. Jeder Student bekommt ein eigenes Thema, dass er im
+        Laufe des Semesters bearbeiten soll. Themen können innerhalb des
+        Studiengangs nur
+        <b>einmal</b> Vergeben werden. Suche Sie sich bitte bis spätestens zum
+        <b>22.03.2022</b> ein Thema aus.
+      </Text>
+      <Text headline="Hinweis">
+        Beim Bearbeiten der Projekte ist es <b>nicht</b> notwendig, jede
+        einzelne Funktionalität des Zielobjekts umzusetzen (das gilt vor allem
+        für die Themen, bei denen eine Webseite nachgebaut werden soll). Es
+        reicht aus, lediglich Teilfunktionalität umzusetzen. Das Ergebnis sollte
+        letztendlich ein Prototyp einer Web-App sein.
+      </Text>
+    </Section>
     <Section headline="Eigene Themen">
       <Text>
         Gerne können auch eigene Themenideen bearbeitet werden. Sprechen Sie
@@ -47,7 +57,7 @@ import Header from "../components/Header.vue";
 import IconHeadline from "../components/IconHeadline.vue";
 import FooterItem from "../components/FooterItem.vue";
 export default {
-  name: "Home",
+  name: "TopicSelection",
   components: {
     IconHeadline,
     Header,
@@ -58,11 +68,11 @@ export default {
     Text,
   },
   mounted() {
-    console.log("Home geladen")
-    let recaptchaScript = document.createElement('script')
-    recaptchaScript.setAttribute('src', 'scripts/darkMode.js')
-    document.head.appendChild(recaptchaScript)
-  }
+    console.log("Home geladen");
+    let recaptchaScript = document.createElement("script");
+    recaptchaScript.setAttribute("src", "scripts/darkMode.js");
+    document.head.appendChild(recaptchaScript);
+  },
 };
 </script>
 

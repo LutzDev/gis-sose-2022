@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
     h1 {
         @apply text-3xl;
         @apply text-slate-700;
-        @apply dark:text-slate-50
+        @apply dark:text-slate-50;
     }
 
     h3 {
@@ -15,45 +14,50 @@
         @apply font-bold;
     }
 
-    h4{
+    h4 {
         @apply font-medium;
     }
 
-    h3, h4{
+    h3,
+    h4 {
         @apply text-slate-600;
         @apply dark:text-slate-200;
     }
 
-    p, li, ul {
+    p,
+    li,
+    ul,
+    ol {
         @apply text-slate-500;
         @apply dark:text-slate-300;
     }
 
-
-
-    li, p, ul{
+    li,
+    p,
+    ul,
+    ol {
         @apply text-base;
     }
 
     a {
-      @apply text-green-500;
+        @apply text-green-500;
         @apply font-medium;
         @apply hover:text-green-300;
         @apply cursor-pointer;
     }
 
-    #moon.enabled, #sun.enabled{
+    #moon.enabled,
+    #sun.enabled {
         display: block;
     }
 
-    #moon, #sun{
+    #moon,
+    #sun {
         display: none;
     }
 
-    code{
+    code {
         @apply bg-slate-800 !important;
         @apply dark:bg-slate-700/30 !important;
     }
-
 }
-

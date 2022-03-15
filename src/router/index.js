@@ -4,6 +4,7 @@ import TopicSelection from "../views/TopicSelection.vue";
 import TutorialDevEnv from "../views/TutorialDevEnv.vue";
 import Abgabeformat from "../views/Abgabeformat.vue";
 import ProjectStructure from "../views/ProjectStructure.vue";
+import GitHubTutorial from "../views/GithubTutorial.vue";
 
 const basePath = "/gis-sose-2022"
 
@@ -32,6 +33,11 @@ const routes = [
         path: `${basePath}/Projektstruktur`,
         name: 'Projektstruktur',
         component: ProjectStructure
+    },
+    {
+        path: `${basePath}/GithubCrashkurs`,
+        name: 'GithubCrashkurs',
+        component: GitHubTutorial
     }
 ]
 
