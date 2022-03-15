@@ -1,5 +1,5 @@
 <template>
-  <!--  <Header v-bind:example-button="true" v-bind:script-button="true"/>-->
+  <Header v-bind:example-button="false" v-bind:script-button="false"/>
   <h1>Abgabe</h1>
 
 
@@ -80,7 +80,14 @@ import Image from "../components/Image.vue";
 import Code from "../components/Code.vue";
 export default {
   name: "Abgabeformat",
-  components: {Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text}
+  components: {Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text},
+  mounted() {
+    console.log("Home geladen")
+    let recaptchaScript = document.createElement('script')
+    recaptchaScript.setAttribute('src', 'scripts/darkMode.js')
+    document.head.appendChild(recaptchaScript)
+  }
+
 }
 </script>
 

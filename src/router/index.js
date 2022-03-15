@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import TopicSelection from "../views/TopicSelection.vue";
 import TutorialDevEnv from "../views/TutorialDevEnv.vue";
 import Abgabeformat from "../views/Abgabeformat.vue";
+import ProjectStructure from "../views/ProjectStructure.vue";
 
 const basePath = "/gis-sose-2022"
 
@@ -26,6 +27,11 @@ const routes = [
         path: `${basePath}/Abgabeformat`,
         name: 'Abgabeformat',
         component: Abgabeformat
+    },
+    {
+        path: `${basePath}/Projektstruktur`,
+        name: 'Projektstruktur',
+        component: ProjectStructure
     }
 ]
 

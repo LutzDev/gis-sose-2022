@@ -1,5 +1,5 @@
 <template>
-  <!-- <Header v-bind:example-button="true" v-bind:script-button="true" /> -->
+  <Header v-bind:example-button="false" v-bind:script-button="false"/>
   <h1>Einrichten der Entwicklungsumgebung</h1>
   <Text>
     Wir werden in diesem Praktikum mit dem Editor Visual Studio Code arbeiten.
@@ -130,6 +130,12 @@ export default {
     FooterItem,
     Image,
   },
+  mounted() {
+    console.log("Home geladen")
+    let recaptchaScript = document.createElement('script')
+    recaptchaScript.setAttribute('src', 'scripts/darkMode.js')
+    document.head.appendChild(recaptchaScript)
+  }
 };
 </script>
 

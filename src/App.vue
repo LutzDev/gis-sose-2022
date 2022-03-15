@@ -1,12 +1,11 @@
 <script setup>
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
-import Footer from './components/Footer.vue'
-import Header from "./components/Header.vue";
+
 </script>
 
 <template>
-  <div class="App px-12 py-24">
+  <div class="App px-12 py-24 dark:bg-slate-800">
 <!--    <router-link to="/">Ka</router-link>
     <router-link :to="{name: 'Home'}">Home</router-link>
     <router-link :to="{name: 'Abgabeformat'}">Abgabeformat</router-link>-->
