@@ -6,36 +6,34 @@ import Abgabeformat from "../views/Abgabeformat.vue";
 import ProjectStructure from "../views/ProjectStructure.vue";
 import GitHubTutorial from "../views/GithubTutorial.vue";
 
-const basePath = "/gis-sose-2022"
-
 const routes = [
     {
-        path: `${basePath}/Home`,
+        path: `/Home`,
         name: 'Home',
         component: Home
     },
     {
-        path: `${basePath}/Themenvergabe`,
+        path: `/Themenvergabe`,
         name: 'TopicSelection',
         component: TopicSelection
     },
     {
-        path: `${basePath}/Entwicklungsumgebung`,
+        path: `/Entwicklungsumgebung`,
         name: 'EnvTutorial',
         component: TutorialDevEnv
     },
     {
-        path: `${basePath}/Abgabeformat`,
+        path: `/Abgabeformat`,
         name: 'Abgabeformat',
         component: Abgabeformat
     },
     {
-        path: `${basePath}/Projektstruktur`,
+        path: `/Projektstruktur`,
         name: 'Projektstruktur',
         component: ProjectStructure
     },
     {
-        path: `${basePath}/GithubCrashkurs`,
+        path: `/GithubCrashkurs`,
         name: 'GithubCrashkurs',
         component: GitHubTutorial
     }
