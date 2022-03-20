@@ -89,6 +89,39 @@
     @apply duration-300;
 }
 
+.congrats{
+    @apply absolute;
+    @apply w-96;
+    top: 50%;
+    transform: translate(100%, -50%);
+    right: 0;
+    animation-name: example;
+    animation-duration: 10s;
+}
+
+@keyframes example {
+    0%   {
+        right: 0;
+        transform: translate(100%, -50%);
+    }
+    20%  {
+        right: 2rem;
+        transform: translate(0%, -50%);
+    }
+    80%  {
+        right: 2rem;
+        transform: translate(0%, -50%);
+    }
+    100% {
+        right: 0;
+        transform: translate(100%, -50%);
+    }
+}
+
+.App{
+    @apply relative;
+}
+
 /* work-sans-200 - latin */
 @font-face {
     font-family: 'Work Sans';

@@ -6,6 +6,7 @@ import Abgabeformat from "../views/Abgabeformat.vue";
 import ProjectStructure from "../views/ProjectStructure.vue";
 import GitHubTutorial from "../views/GithubTutorial.vue";
 import Task1 from "../views/Task1.vue";
+import Task2 from "../views/Task2.vue";
 
 const routes = [
     {
@@ -42,6 +43,11 @@ const routes = [
         path: `/Task1`,
         name: 'Task1',
         component: Task1
+    },
+    {
+        path: `/Task2`,
+        name: 'Task2',
+        component: Task2
     }
 ]
 

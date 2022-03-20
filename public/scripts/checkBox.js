@@ -6,6 +6,8 @@ let inputs = document.getElementsByTagName('input');
 let checkBoxes = document.querySelectorAll("input[type='checkbox']");
 let amount = checkBoxes.length;
 
+let congratsEffects = ['../congrats/slow-clapping-men.gif/', '../congrats/dancing_alpaca.gif/'];
+
 Array.from(checkBoxes).forEach(function (value, i){
     value.addEventListener("change", function (){
         changedCheckbox(this, i)
@@ -39,12 +41,24 @@ const countCheckboxes = () => {
         }
     })
 
+
     if(counter === amount && localStorage.getItem(title+"-congrats") === null){
         localStorage.setItem(title+"-congrats", "fired")
         party.confetti(document.body, {
             count: party.variation.range(40, 80)
         });
-    }
+        /*
+                let img = document.createElement('img');
+                img.src =
+                    congratsEffects[title.substring(title.lastIndexOf("k")+1)-1];
+                img.classList.add("congrats")
+                document.getElementsByClassName("App")[0].appendChild(img);
+
+                window.setTimeout(()=>{
+                    document.getElementsByClassName("App")[0].removeChild(img)
+                },11000)
+                */
+            }
 }
 
 const addClass = (ele) => {
