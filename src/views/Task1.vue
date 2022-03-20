@@ -60,6 +60,10 @@ export default {
     darkMode.setAttribute('src', 'scripts/darkMode.js')
     document.head.appendChild(darkMode)
 
+    let partyjs = document.createElement('script')
+    partyjs.setAttribute('src', 'https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js')
+    document.head.appendChild(partyjs)
+
     let checkBox = document.createElement('script')
     checkBox.setAttribute('src', 'scripts/checkBox.js')
     checkBox.setAttribute('type', 'module')
