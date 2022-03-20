@@ -1,11 +1,10 @@
-console.log(window.location.href)
-
 const url = window.location.href
 const startPos = url.lastIndexOf("/")
 const title = url.substring(startPos + 1);
 
 let inputs = document.getElementsByTagName('input');
 let checkBoxes = document.querySelectorAll("input[type='checkbox']");
+let amount = checkBoxes.length;
 
 Array.from(checkBoxes).forEach(function (value, i){
     value.addEventListener("change", function (){
@@ -19,8 +18,8 @@ const changedCheckbox = (ele, index) => {
     }else{
         localStorage.setItem(title+"-"+index, "unchecked");
     }
-
     addClass(ele);
+    countCheckboxes();
 }
 
 const setCheckbox = () => {
@@ -32,9 +31,24 @@ const setCheckbox = () => {
     })
 }
 
+const countCheckboxes = () => {
+    let counter = 0;
+    Array.from(checkBoxes).forEach(function (value, i){
+        if(value.checked){
+            counter ++;
+        }
+    })
+
+    if(counter === amount && localStorage.getItem(title+"-congrats") === null){
+        localStorage.setItem(title+"-congrats", "fired")
+        party.confetti(document.body, {
+            count: party.variation.range(40, 80)
+        });
+    }
+}
+
 const addClass = (ele) => {
     ele.nextSibling.classList.toggle("cross-out")
 }
 
 setCheckbox();
-

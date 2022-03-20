@@ -5,7 +5,7 @@
 </script>
 
 <template>
-  <div class="App px-12 pb-24 pt-12 dark:bg-slate-800">
+  <div class="App px-12 pb-24 pt-12 dark:bg-slate-800 selection:bg-indigo-100 selection:text-indigo-600">
 <!--    <router-link to="/">Ka</router-link>
     <router-link :to="{name: 'Home'}">Home</router-link>
     <router-link :to="{name: 'Abgabeformat'}">Abgabeformat</router-link>-->

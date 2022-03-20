@@ -62,6 +62,7 @@ export default {
 
     let checkBox = document.createElement('script')
     checkBox.setAttribute('src', 'scripts/checkBox.js')
+    checkBox.setAttribute('type', 'module')
     document.head.appendChild(checkBox)
   }
 }
