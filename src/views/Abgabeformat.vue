@@ -82,7 +82,6 @@ export default {
   name: "Abgabeformat",
   components: {Code, Image, IconHeadline, Header, Sections, List, Section, Footer, Text},
   mounted() {
-    console.log("Home geladen")
     let recaptchaScript = document.createElement('script')
     recaptchaScript.setAttribute('src', 'scripts/darkMode.js')
     document.head.appendChild(recaptchaScript)

@@ -5,6 +5,7 @@ import TutorialDevEnv from "../views/TutorialDevEnv.vue";
 import Abgabeformat from "../views/Abgabeformat.vue";
 import ProjectStructure from "../views/ProjectStructure.vue";
 import GitHubTutorial from "../views/GithubTutorial.vue";
+import Task1 from "../views/Task1.vue";
 
 const routes = [
     {
@@ -36,6 +37,11 @@ const routes = [
         path: `/GithubCrashkurs`,
         name: 'GithubCrashkurs',
         component: GitHubTutorial
+    },
+    {
+        path: `/Task1`,
+        name: 'Task1',
+        component: Task1
     }
 ]
 

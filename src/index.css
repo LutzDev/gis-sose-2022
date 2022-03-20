@@ -66,6 +66,29 @@
     }
 }
 
+.checkbox__content.cross-out {
+    @apply dark:opacity-25;
+    @apply opacity-50;
+    @apply before:w-full;
+    filter: blur(0.5px);
+}
+
+.checkbox__content{
+    @apply relative;
+    @apply before:absolute;
+    @apply opacity-100;
+    @apply before:content-[''];
+    @apply before:bg-slate-400;
+    @apply dark:before:bg-slate-100;
+    @apply before:w-0;
+    @apply before:h-0.5;
+    @apply before:inset-y-1/2;
+    @apply before:transition-all;
+    @apply before:duration-300;
+    @apply transition-all;
+    @apply duration-300;
+}
+
 /* work-sans-200 - latin */
 @font-face {
     font-family: 'Work Sans';

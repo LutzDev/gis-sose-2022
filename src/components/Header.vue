@@ -1,7 +1,7 @@
 <template>
   <div class="Header mb-16">
     <div class="flex items-center justify-end gap-2">
-      <a v-if="exampleButton === true" :href="scriptPage" target="_blank">
+      <a v-if="exampleButton === true" :href="examplePage" target="_blank">
       <button class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-slate-400" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M12 14l9-5-9-5-9 5 9 5z" />
@@ -10,7 +10,7 @@
         </svg>
       </button>
       </a>
-      <a v-if="scriptButton === true" :href="examplePage" target="_blank">
+      <a v-if="scriptButton === true" :href="scriptPage" target="_blank">
         <button class="py-2 px-2 rounded text-white bg-slate-200 dark:bg-slate-700">
           <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -32,8 +32,8 @@ export default {
   name: "Header",
   data (){
     return{
-      scriptPage: 'https://www.google.de/test',
-      examplePage: 'https://www.google.de/testsdsd'
+      scriptPage: 'https://heintz-s.github.io/GIS/',
+      examplePage: 'https://heintz-s.github.io/GIS/'
     }
   },
   props: ['scriptButton', 'exampleButton'],

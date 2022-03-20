@@ -3,11 +3,6 @@ const moon = document.getElementById("moon");
 const sun = document.getElementById("sun");
 const html = document.querySelector('html');
 
-console.log(darkModeToggle);
-console.log(moon);
-console.log(sun);
-console.log(html);
-
 let darkMode = localStorage.getItem("darkMode");
 
 
