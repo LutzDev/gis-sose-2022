@@ -1,5 +1,5 @@
 <template>
-  <Header v-bind:example-button="false" v-bind:script-button="true"/>
+  <Header v-bind:example-button="false" v-bind:script-button="true" v-bind:print-button="true"/>
   <h1>HTML Grundlagen</h1>
   <Text>In dieser Aufgabe erstellen Sie eine stillose HTML-Seite (<b>ohne</b> CSS und Javascript).</Text>
   <Sections>

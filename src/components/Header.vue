@@ -1,14 +1,19 @@
 <template>
   <div class="Header mb-16">
     <div class="flex items-center justify-end gap-2">
-      <a v-if="exampleButton === true" :href="examplePage" target="_blank">
-      <button class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700">
+      <button v-if="printButton === true" class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-slate-400" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M12 14l9-5-9-5-9 5 9 5z" />
-          <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
-          <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
         </svg>
       </button>
+      <a v-if="exampleButton === true" target="_blank">
+        <button class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-slate-400" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+            <path stroke-linecap="round" stroke-linejoin="round" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+          </svg>
+        </button>
       </a>
       <a v-if="scriptButton === true" :href="scriptPage" target="_blank">
         <button class="py-2 px-2 rounded text-white bg-slate-200 dark:bg-slate-700">
@@ -36,7 +41,7 @@ export default {
       examplePage: 'https://heintz-s.github.io/GIS/'
     }
   },
-  props: ['scriptButton', 'exampleButton'],
+  props: ['scriptButton', 'exampleButton', 'printButton'],
 }
 </script>
 
