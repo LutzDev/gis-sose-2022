@@ -122,6 +122,10 @@
     @apply relative;
 }
 
+.FooterItem>*:not(:last-child){
+    @apply mb-2;
+}
+
 /* work-sans-200 - latin */
 @font-face {
     font-family: 'Work Sans';

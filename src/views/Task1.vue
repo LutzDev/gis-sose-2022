@@ -20,9 +20,13 @@
   <Footer>
     <FooterItem>
       <IconHeadline headline="Nützliche Links" v-bind:info-icon="true"/>
-      <List>
-        <li>Philipp Oeschger: <a href="mailto:p.oeschger@hs-furtwangen.de">p.oeschger@hs-furtwangen.de</a></li>
-        <li>Lutz Weigold: <a href="l.weigold@hs-furtwangen.de">l.weigold@hs-furtwangen.de</a></li>
+      <List headline="Designinspiration">
+        <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
+        <li><a href="https://www.behance.net" target="_blank">Behance</a></li>
+        <li><a href="https://www.pinterest.de" target="_blank">Pinterest</a></li>
+      </List>
+      <List headline="Interaktive Webseiten">
+        <li><a href="https://www.awwwards.com/" target="_blank">Awwwards</a></li>
       </List>
     </FooterItem>
     <FooterItem>
@@ -52,9 +56,10 @@ import List from "../components/List.vue";
 import Highlight from "../components/Highlight.vue";
 import IconHeadline from "../components/IconHeadline.vue";
 import Checkbox from "../components/Checkbox.vue";
+import FooterItem from "../components/FooterItem.vue";
 export default {
   name: "Task1",
-  components: {Checkbox, Highlight, List, Section, Sections, Text, Footer, Header, IconHeadline},
+  components: {Checkbox, Highlight, List, Section, Sections, Text, Footer, Header, IconHeadline, FooterItem},
   mounted() {
     let darkMode = document.createElement('script')
     darkMode.setAttribute('src', 'scripts/darkMode.js')
