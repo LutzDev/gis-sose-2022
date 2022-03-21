@@ -111,9 +111,9 @@
         <i>README</i> zu initialisieren. <i>README</i> können viele verschiedene
         Zwecke erfüllen. Sie können das <i>Repo</i> beschreiben,
         Anwendungsbeispiel zeigen oder auch auf wichtige Stellen im
-        <i>Repo</i> verweisen. <i>READMEs</i> werden in vielen unterschiedlichen
-        Repos für variierende Zweck eingesetzt und es empfiehlt sich auch für
-        ihr Repo eine eigene <i>README</i> anzulegen.
+        <i>Repo</i> verweisen. Oft werden <i>READMEs</i> jedoch für die
+        Dokumentation des <i>Repos</i> verwendet. Es empfiehlt sich auch für ihr
+        Repo eine eigene <i>README</i> anzulegen.
       </Text>
       <Image fileName="create_README.png"></Image>
       <Text headline="Repository klonen"
