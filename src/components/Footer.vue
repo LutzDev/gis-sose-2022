@@ -6,7 +6,7 @@ export default {
 
 <template>
   <div class="Footer">
-    <div class="grid grid-cols-3 gap-x-3 gap-y-6">
+    <div class="grid grid-cols-3 gap-x-3 gap-y-9">
       <slot />
     </div>
   </div>

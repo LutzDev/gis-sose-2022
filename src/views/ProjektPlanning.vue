@@ -11,8 +11,8 @@
       <Text>
         Zuerst sollten Sie Ideen für Ihr Projekt sammeln. Hierbei lohnt es sich,
         Inspiration aus dem Internet zu suchen. Sie können sich an ähnlichen
-        Webseiten orientieren oder dafür ausgelegte Inspirationsseiten
-        verwenden. Im Anschluss werden Inspirationsseiten vorgestellt.</Text
+        Webseiten orientieren oder dafür ausgelegte Inspirations-Seiten
+        verwenden. Im Anschluss werden Inspirations-Seiten vorgestellt.</Text
       >
       <List headline="Für die Suche nach Design-Ideen gibt es:">
         <li><a target="_blank" href="https://dribbble.com/">Dribbble</a></li>
@@ -32,21 +32,21 @@
     <Section headline="Anforderungsanalyse">
       <Text>
         Zunächst ist es sinnvoll, einen Funktionskatalog zu erstellen. Da es im
-        Rahmen des Praktikums nicht möglich ist, jede gewünsche Funktionalität
+        Rahmen des Praktikums nicht möglich ist, jede gewünschte Funktionalität
         Ihrer Zieldomäne umzusetzen, sollten Sie sich darüber Gedanken machen,
         welche Funktionalität Sie umsetzen wollen. Hierbei sollten Sie sich
-        darüber Gedanken machen, welche Funktione Sie auf jeden Fall gerne
-        umsetzen würden und welche Funktione eine untergeordnete Rolle spielen,
-        sodass Sie am eine Liste der Funktionen, nach Priorität geordnet
+        darüber Gedanken machen, welche Funktionen Sie auf jeden Fall gerne
+        umsetzen würden und welche Funktionen eine untergeordnete Rolle spielen,
+        sodass Sie am Ende eine Liste der Funktionen, nach Priorität geordnet
         erhalten.
       </Text>
     </Section>
     <Section headline="Ausarbeitung erster Ideen">
       <Text
-        >Nach dem die Anforderungen geklärt wurden, können erste Ideen
-        ausgestalltet werden. Ob Sie für diesen Zweck Moodboards, oder erste
-        Screendesigns erstellen wollen ist Ihnene überlassen. Dieser Schritt
-        kann dabei helfen das Projekt in die richtige Richtung zu lenken und
+        >Nachdem die Anforderungen geklärt wurden, können erste Ideen
+        ausgestaltet werden. Ob Sie für diesen Zweck Moodboards, oder erste
+        Screendesigns erstellen wollen, ist Ihnen überlassen. Dieser Schritt
+        kann dabei helfen, das Projekt in die richtige Richtung zu lenken und
         sollte nicht vernachlässigt werden. Für das Ausarbeiten von Ideen können
         Sie Stift und Paper, oder eines der unten aufgelisteten Tools verwenden.
         Überlegen Sie sich darüber hinaus eine
@@ -173,10 +173,20 @@ import Text from "../components/Text.vue";
 import List from "../components/List.vue";
 import Footer from "../components/Footer.vue";
 import FooterItem from "../components/FooterItem.vue";
+import IconHeadline from "../components/IconHeadline.vue";
 
 export default {
   name: "ProjectPlanning",
-  components: { Header, Sections, Section, Text, List, Footer, FooterItem },
+  components: {
+    Header,
+    Sections,
+    Section,
+    Text,
+    List,
+    Footer,
+    FooterItem,
+    IconHeadline,
+  },
   mounted() {
     console.log("Home geladen");
     let recaptchaScript = document.createElement("script");
