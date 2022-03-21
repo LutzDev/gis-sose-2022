@@ -9,11 +9,10 @@
   <Sections>
     <Section headline="Inspirationssuche">
       <Text>
-        Als aller erstes sollten Sie Ideen für Ihr Projekt sammeln. Hierbei
-        lohnt es sich, Inspiration aus dem Internet zu suchen. Sie können sich
-        an ähnlichen Webseiten orientieren oder dafür ausgelegte
-        Inspirationsseiten verwenden. Im Anschluss werden Inspirationsseiten
-        vorgestellt.</Text
+        Zuerst sollten Sie Ideen für Ihr Projekt sammeln. Hierbei lohnt es sich,
+        Inspiration aus dem Internet zu suchen. Sie können sich an ähnlichen
+        Webseiten orientieren oder dafür ausgelegte Inspirationsseiten
+        verwenden. Im Anschluss werden Inspirationsseiten vorgestellt.</Text
       >
       <List headline="Für die Suche nach Design-Ideen gibt es:">
         <li><a target="_blank" href="https://dribbble.com/">Dribbble</a></li>
@@ -32,7 +31,7 @@
     </Section>
     <Section headline="Anforderungsanalyse">
       <Text>
-        Zunächst ist es Sinnvoll, einen Funktionskatalog zu erstellen. Da es im
+        Zunächst ist es sinnvoll, einen Funktionskatalog zu erstellen. Da es im
         Rahmen des Praktikums nicht möglich ist, jede gewünsche Funktionalität
         Ihrer Zieldomäne umzusetzen, sollten Sie sich darüber Gedanken machen,
         welche Funktionalität Sie umsetzen wollen. Hierbei sollten Sie sich
@@ -48,10 +47,19 @@
         ausgestalltet werden. Ob Sie für diesen Zweck Moodboards, oder erste
         Screendesigns erstellen wollen ist Ihnene überlassen. Dieser Schritt
         kann dabei helfen das Projekt in die richtige Richtung zu lenken und
-        sollte nicht vernachlässigt werden. Für die Ausarbeitung können Sie
-        Stift und Paper, oder eines der unten aufgelisteten Tools verwenden.
+        sollte nicht vernachlässigt werden. Für das Ausarbeiten von Ideen können
+        Sie Stift und Paper, oder eines der unten aufgelisteten Tools verwenden.
+        Überlegen Sie sich darüber hinaus eine
+        <a target="_blank" href="https://kulturbanause.de/faq/sitemap/"
+          >Seitenstruktur</a
+        >
+        (Sitemap) und <b>skizzieren</b> Sie diese.
       </Text>
-      <List headline="Tools für das erstellen von Screendesigns">
+    </Section>
+  </Sections>
+  <Footer>
+    <FooterItem>
+      <List headline="Tools für das Erstellen von Screendesigns">
         <li>
           <a target="_blank" href="https://www.figma.com/">Figma (kostenlos)</a>
         </li>
@@ -67,8 +75,10 @@
             >Sketch (kostenpflichtig)</a
           >
         </li>
-      </List>
-      <List headline="Tools für das bearbeiten von Bildern">
+      </List></FooterItem
+    >
+    <FooterItem>
+      <List headline="Tools für das Bearbeiten von Bildern">
         <li>
           <a target="_blank" href="https://www.getpaint.net/index.html"
             >Paint.net (kostenlos)</a
@@ -94,8 +104,10 @@
             >Affinity Photo (kostenpflichtig)</a
           >
         </li>
-      </List>
-      <List headline="Tools für das bearbeiten von Vektorgrafiken">
+      </List></FooterItem
+    >
+    <FooterItem>
+      <List headline="Tools für das Bearbeiten von Vektorgrafiken">
         <li>
           <a target="_blank" href="https://inkscape.org/de/"
             >Inkscape (OpenSource und kostenlos)</a
@@ -116,9 +128,42 @@
             >Affinity Designer (kostenpflichtig)</a
           >
         </li>
-      </List>
-    </Section>
-  </Sections>
+      </List></FooterItem
+    >
+    <FooterItem
+      ><List headline="Tools für das Bearbeiten von Bewegtbild">
+        <li>
+          <a target="_blank" href="https://ezgif.com/">Ezgif (kostenlos)</a>:
+          zum bearbeiten von GIFs
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.blackmagicdesign.com/uk/products/davinciresolve/"
+            >DaVinci Resolve (kostenlos)</a
+          >
+        </li>
+      </List></FooterItem
+    >
+    <FooterItem
+      ><List headline="Tools für das Bearbeiten von Audiodateien">
+        <li>
+          <a target="_blank" href="https://www.audacity.de/"
+            >Audacity (kostenlos)</a
+          >
+        </li>
+      </List></FooterItem
+    >
+    <FooterItem
+      ><List headline="Tools für das Erstellen von Grafiken">
+        <li>
+          <a target="_blank" href="https://www.diagrams.net/"
+            >Diagram.net (OpenSource und kostenlos)</a
+          >
+        </li>
+      </List></FooterItem
+    >
+  </Footer>
 </template>
 <script>
 import Header from "../components/Header.vue";
@@ -126,10 +171,12 @@ import Sections from "../components/Sections.vue";
 import Section from "../components/Section.vue";
 import Text from "../components/Text.vue";
 import List from "../components/List.vue";
+import Footer from "../components/Footer.vue";
+import FooterItem from "../components/FooterItem.vue";
 
 export default {
   name: "ProjectPlanning",
-  components: { Header, Sections, Section, Text, List },
+  components: { Header, Sections, Section, Text, List, Footer, FooterItem },
   mounted() {
     console.log("Home geladen");
     let recaptchaScript = document.createElement("script");

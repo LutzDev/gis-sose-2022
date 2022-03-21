@@ -89,7 +89,7 @@
         </li>
         <li>
           <a href="https://pixabay.com/de/" target="_blank"
-            >Pixabay (auch Video)</a
+            >Pixabay (auch Videos)</a
           >
         </li>
         <li>
