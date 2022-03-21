@@ -38,7 +38,13 @@
         darüber Gedanken machen, welche Funktionen Sie auf jeden Fall gerne
         umsetzen würden und welche Funktionen eine untergeordnete Rolle spielen,
         sodass Sie am Ende eine Liste der Funktionen, nach Priorität geordnet
-        erhalten.
+        erhalten. Für die Priorisierung der Anforderunge könnten Sie bspw. die
+        <a
+          target="_blank"
+          href="https://blog.doubleslash.de/wie-priorisiere-ich-anforderungen-an-eine-softwareloesung/"
+          >MoSCoW-Methode</a
+        >
+        verwenden.
       </Text>
     </Section>
     <Section headline="Ausarbeitung erster Ideen">
