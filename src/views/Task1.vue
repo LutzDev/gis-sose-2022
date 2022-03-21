@@ -1,6 +1,6 @@
 <template>
   <Header
-    v-bind:example-button="true"
+    v-bind:example-button="false"
     v-bind:script-button="true"
     v-bind:print-button="true"
   />
@@ -55,13 +55,16 @@
         <a target="_blank" href="https://validator.w3.org/#validate_by_input"
           >Markup Validation Service</a
         >
-        können Sie Ihre Seite gegenprüfen.</Text
+        können Sie Ihre Seite gegenprüfen. Falls Sie Bilder verwenden, achten Sie darauf, dass diese zur kostenlosen Nutzung zur Verfügung stehen. Links zu lizenzfreien Bildern finden Sie im Footer. </Text
       >
     </Section>
   </Sections>
   <Footer>
     <FooterItem>
       <IconHeadline headline="Nützliche Links" v-bind:info-icon="true" />
+      <List headline="HTML-Validator">
+        <li><a href="https://validator.w3.org/#validate_by_input" target="_blank">w3.org Validator</a></li>
+      </List>
       <List headline="Designinspiration">
         <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
         <li><a href="https://www.behance.net" target="_blank">Behance</a></li>
@@ -72,6 +75,17 @@
       <List headline="Interaktive Webseiten">
         <li>
           <a href="https://www.awwwards.com/" target="_blank">Awwwards</a>
+        </li>
+      </List>
+      <List headline="Bildmaterial">
+        <li>
+          <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+        </li>
+        <li>
+          <a href="https://pixabay.com/de/" target="_blank">Pixabay</a>
+        </li>
+        <li>
+          <a href="https://www.pexels.com/de-de/" target="_blank">Pexels</a>
         </li>
       </List>
     </FooterItem>
