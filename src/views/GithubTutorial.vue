@@ -1,5 +1,9 @@
 <template>
-  <Header v-bind:example-button="false" v-bind:script-button="false" />
+  <Header
+    v-bind:example-button="false"
+    v-bind:script-button="false"
+    v-bind:print-button="true"
+  />
   <h1>Git -/ GitHub-Crashkurs</h1>
   <Sections>
     <Section>

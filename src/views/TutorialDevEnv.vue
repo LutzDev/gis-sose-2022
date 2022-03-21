@@ -1,5 +1,9 @@
 <template>
-  <Header v-bind:example-button="false" v-bind:script-button="false" />
+  <Header
+    v-bind:example-button="false"
+    v-bind:script-button="false"
+    v-bind:print-button="true"
+  />
   <h1>Einrichten der Entwicklungsumgebung</h1>
   <Text>
     Wir werden in diesem Praktikum mit dem Editor Visual Studio Code arbeiten.

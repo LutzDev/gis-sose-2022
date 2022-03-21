@@ -55,15 +55,21 @@
         <a target="_blank" href="https://validator.w3.org/#validate_by_input"
           >Markup Validation Service</a
         >
-        können Sie Ihre Seite gegenprüfen. Falls Sie Bilder verwenden, achten Sie darauf, dass diese zur kostenlosen Nutzung zur Verfügung stehen. Links zu lizenzfreien Bildern finden Sie im Footer. </Text
-      >
+        können Sie Ihre Seite gegenprüfen. Falls Sie Bilder, Videos oder Audio
+        verwenden, achten Sie darauf, dass diese zur kostenlosen Nutzung zur
+        Verfügung stehen. Links zu lizenzfreien Medien finden Sie im Footer.
+      </Text>
     </Section>
   </Sections>
   <Footer>
     <FooterItem>
       <IconHeadline headline="Nützliche Links" v-bind:info-icon="true" />
       <List headline="HTML-Validator">
-        <li><a href="https://validator.w3.org/#validate_by_input" target="_blank">w3.org Validator</a></li>
+        <li>
+          <a href="https://validator.w3.org/#validate_by_input" target="_blank"
+            >w3.org Validator</a
+          >
+        </li>
       </List>
       <List headline="Designinspiration">
         <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
@@ -82,10 +88,24 @@
           <a href="https://unsplash.com/" target="_blank">Unsplash</a>
         </li>
         <li>
-          <a href="https://pixabay.com/de/" target="_blank">Pixabay</a>
+          <a href="https://pixabay.com/de/" target="_blank"
+            >Pixabay (auch Video)</a
+          >
         </li>
         <li>
           <a href="https://www.pexels.com/de-de/" target="_blank">Pexels</a>
+        </li>
+      </List>
+      <List headline="Audiomaterial">
+        <li>
+          <a
+            href="https://support.google.com/youtube/answer/3376882?hl=de"
+            target="_blank"
+            >YouTube Audio-Mediathek</a
+          >
+        </li>
+        <li>
+          <a href="https://freesound.org/" target="_blank">Freesound</a>
         </li>
       </List>
     </FooterItem>
