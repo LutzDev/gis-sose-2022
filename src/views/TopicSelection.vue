@@ -9,8 +9,8 @@
         ausgewählt werden. Jeder Student bekommt ein eigenes Thema, dass er im
         Laufe des Semesters bearbeiten soll. Themen können innerhalb des
         Studiengangs nur
-        <b>einmal</b> Vergeben werden. Suche Sie sich bitte bis spätestens zum
-        <b>22.03.2022</b> ein Thema aus.
+        <b>einmal</b> Vergeben werden. Suchen Sie sich bitte bis spätestens zum
+        <b>22.03.2022 (MIB)</b> bzw. <b>23.03.2022 (OMB)</b> ein Thema aus.
       </Text>
       <Text headline="Hinweis">
         Beim Bearbeiten der Projekte ist es <b>nicht</b> notwendig, jede
