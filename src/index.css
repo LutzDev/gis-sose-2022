@@ -103,9 +103,10 @@
     @apply after:transition-all;
     @apply after:duration-300;
     @apply after:absolute;
-    @apply after:-translate-x-full;
+    @apply after:left-0;
     @apply after:-z-10;
     @apply after:rounded;
+    @apply after:top-0
 
 }
 
