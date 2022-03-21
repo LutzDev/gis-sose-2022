@@ -4,9 +4,21 @@ const title = url.substring(startPos + 1);
 
 let inputs = document.getElementsByTagName('input');
 let checkBoxes = document.querySelectorAll("input[type='checkbox']");
+let notification = document.getElementById('notification');
 let amount = checkBoxes.length;
 
 let congratsEffects = ['../congrats/slow-clapping-men.gif/', '../congrats/dancing_alpaca.gif/'];
+
+if(notification){
+    notification.parentNode.addEventListener("click", () => {
+        notification.remove();
+        localStorage.setItem(title+"-notification", "clicked")
+    })
+
+    if(localStorage.getItem(title+"-notification") === "clicked"){
+        notification.remove();
+    }
+}
 
 Array.from(checkBoxes).forEach(function (value, i){
     value.addEventListener("change", function (){
@@ -64,5 +76,7 @@ const countCheckboxes = () => {
 const addClass = (ele) => {
     ele.nextSibling.classList.toggle("cross-out")
 }
+
+
 
 setCheckbox();

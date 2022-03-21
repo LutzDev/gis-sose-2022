@@ -22,8 +22,12 @@
       </button>
       <a v-if="exampleButton === true" target="_blank">
         <button
-          class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700"
+          class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700 relative"
         >
+          <span id="notification" class="flex h-3 w-3 absolute top-0 right-0 translate-x-1/4 -translate-y-1/4">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-3 w-3 bg-sky-400"></span>
+        </span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             class="h-6 w-6 stroke-slate-400"

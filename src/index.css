@@ -69,45 +69,42 @@
 }
 
 .checkbox__content.cross-out {
-    @apply dark:opacity-25;
-    @apply opacity-50;
-    @apply before:w-full;
-
-    @apply after:w-full;
+    @apply before:animate-crossout;
+    @apply animate-fadeout;
 }
 
 .checkbox__content{
     @apply relative;
     @apply before:absolute;
-    @apply opacity-100;
     @apply before:content-[''];
-/*    @apply before:bg-slate-400;
-    @apply dark:before:bg-slate-100;*/
     @apply before:w-0;
-  /*  @apply before:h-0.5;*/
     @apply before:h-full;
-   /* @apply before:inset-y-1/2;*/
-    @apply before:transition-all;
-    @apply before:duration-300;
-    @apply transition-all;
-    @apply duration-300;
     @apply before:bg-glassmorphism;
     @apply before:backdrop-blur-xs;
     @apply before:rounded;
 
-    @apply after:content-[''];
-    @apply after:w-0;
-    @apply after:h-full;
-    @apply dark:after:bg-slate-700 ;
-    @apply after:bg-slate-200/75 ;
-    @apply after:transition-all;
-    @apply after:duration-300;
-    @apply after:absolute;
-    @apply after:left-0;
-    @apply after:-z-10;
-    @apply after:rounded;
-    @apply after:top-0
+    @apply before:animate-crossoutReverse;
+    @apply animate-fadeoutReverse;
 
+}
+
+@keyframes congratsanimation {
+    0%   {
+        right: 0;
+        transform: translate(100%, -50%);
+    }
+    20%  {
+        right: 2rem;
+        transform: translate(0%, -50%);
+    }
+    80%  {
+        right: 2rem;
+        transform: translate(0%, -50%);
+    }
+    100% {
+        right: 0;
+        transform: translate(100%, -50%);
+    }
 }
 
 .congrats{
@@ -116,11 +113,11 @@
     top: 50%;
     transform: translate(100%, -50%);
     right: 0;
-    animation-name: example;
+    animation-name: congratsanimation;
     animation-duration: 10s;
 }
 
-@keyframes example {
+@keyframes congratsanimation {
     0%   {
         right: 0;
         transform: translate(100%, -50%);
