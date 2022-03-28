@@ -128,7 +128,7 @@
       <IconHeadline headline="Abgabetermin" v-bind:deadline-icon="true" />
       <List>
         <li>MIB: 27.03.22 - 18:00 Uhr</li>
-        <li>OMB: 04.03.22 - 18:00 Uhr</li>
+        <li>OMB: 04.04.22 - 18:00 Uhr</li>
       </List>
     </FooterItem>
   </Footer>

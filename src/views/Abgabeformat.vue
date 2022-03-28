@@ -59,7 +59,7 @@
         <IconHeadline headline="Abgabetermin" v-bind:deadline-icon="true"/>
         <List>
           <li>MIB: Sonntags 18:00 Uhr</li>
-          <li>OMB: Mittwochs 18:00 Uhr</li>
+          <li>OMB: Montags 18:00 Uhr</li>
         </List>
       </FooterItem>
     </Footer>
