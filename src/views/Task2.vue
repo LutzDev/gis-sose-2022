@@ -6,12 +6,16 @@
   />
   <h1>CSS</h1>
   <Text
-    >In dieser Aufgabe erstellen stilisieren sie die in der letzten Aufgabe
-    erstellten HTML-Seiten mit CSS.</Text
+    >In dieser Aufgabe stilisieren sie die in der letzten Aufgabe erstellten
+    HTML-Seiten mit CSS.</Text
   >
   <Sections>
     <Section headline="Allgemein">
       <List>
+        <Checkbox
+          >Überlegen Sie sich ein Design (muss nicht hochgeladen
+          werden).</Checkbox
+        >
         <Checkbox
           >Binden Sie das Styling
           <a target="_blank" href="https://www.w3schools.com/css/css_howto.asp"
@@ -50,12 +54,6 @@
           >
           Sie mindestens <b>3-mal</b> in Ihrer CSS-Datei Selektoren.</Checkbox
         >
-        <Checkbox
-          >Betten Sie mindestens eine Webfont in ihrer Webseite ein. Das können
-          Sie fremd gehostet z. B. über das Einbinden einer Google Font machen
-          (wie in der Vorlesung gezeigt) oder falls Sie bereits wissen, wie das
-          geht selbst gehostet mit @font-face.
-        </Checkbox>
         <Checkbox
           >Betten Sie mindestens eine selbst oder fremdgehostete
           <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/css/7"
@@ -143,9 +141,8 @@
           gestallten.</Checkbox
         >
         <Checkbox
-          >Verwenden Sie möglichst nur CSS-Eigenschaften verwenden, die in den
-          gängigen Browsern (Chrome, Firefox, Safari, Edge) unterstützt werden
-          (siehe
+          >Verwenden Sie möglichst nur CSS-Eigenschafte, die in den gängigen
+          Browsern (Chrome, Firefox, Safari, Edge) unterstützt werden (siehe
           <a target="_blank" href="https://caniuse.com/">Can I Use</a
           >).</Checkbox
         >
@@ -163,16 +160,16 @@
   <Footer>
     <FooterItem>
       <IconHeadline headline="Nützliche Links" v-bind:info-icon="true" />
-      <List>
+      <List headline="Designinspiration">
+        <li><a href="https://dribbble.com" target="_blank">Dribbble</a></li>
+        <li><a href="https://www.behance.net" target="_blank">Behance</a></li>
         <li>
-          Philipp Oeschger:
-          <a href="mailto:p.oeschger@hs-furtwangen.de"
-            >p.oeschger@hs-furtwangen.de</a
-          >
+          <a href="https://www.pinterest.de" target="_blank">Pinterest</a>
         </li>
+      </List>
+      <List headline="Interaktive Webseiten">
         <li>
-          Lutz Weigold:
-          <a href="l.weigold@hs-furtwangen.de">l.weigold@hs-furtwangen.de</a>
+          <a href="https://www.awwwards.com/" target="_blank">Awwwards</a>
         </li>
       </List>
     </FooterItem>
