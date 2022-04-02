@@ -172,6 +172,9 @@
           <a href="https://www.awwwards.com/" target="_blank">Awwwards</a>
         </li>
       </List>
+      <List headline="Frei zugängliche Schriftarten">
+          <li><a target="_blank" href="https://fonts.google.com/">Google Fonts</a></li>
+      </List>
     </FooterItem>
     <FooterItem>
       <IconHeadline headline="Kontaktaufnahme" v-bind:contact-icon="true" />
