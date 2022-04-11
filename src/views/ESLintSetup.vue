@@ -106,9 +106,11 @@
       >
     </Section>
     <Section headline="Testen von ESLint">
-      Nun können Sie die Funktionalität von ESLint testen. Legen Sie bsw. eine
-      neue Datei <i>eslint_test.js</i> in ihrem Projekt an. Füllen Sie diese
-      Datei mit dem Inhalt:
+      <Text
+        >Nun können Sie die Funktionalität von ESLint testen. Legen Sie bsw.
+        eine neue Datei <i>eslint_test.js</i> in ihrem Projekt an. Füllen Sie
+        diese Datei mit dem Inhalt:</Text
+      >
     </Section>
     <pre v-highlightjs="sourcecode"><code class="javascript">const test = 0
 
