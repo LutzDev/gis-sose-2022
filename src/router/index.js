@@ -9,6 +9,7 @@ import Task1 from "../views/Task1.vue";
 import Task2 from "../views/Task2.vue";
 import Task3 from "../views/Task3.vue";
 import ProjectPlanning from "../views/ProjektPlanning.vue";
+import ESLintSetup from "../views/ESLintSetup.vue";
 
 const routes = [
     {
@@ -60,6 +61,11 @@ const routes = [
         path: `/ProjectPlanning`,
         name: 'ProjectPlanning',
         component: ProjectPlanning
+    }, 
+    {
+        path: '/ESLintSetup',
+        name: 'ESLintSetup',
+        component: ESLintSetup
     }
 ]
 
