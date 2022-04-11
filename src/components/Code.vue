@@ -1,6 +1,6 @@
 <template>
   <div v-if="language" class="rounded-md overflow-hidden">
-    <pre v-highlightjs="sourcecode"><code :class="language"><slot/></code></pre>
+    <pre v-highlightjs><code :class="language"><slot/></code></pre>
   </div>
 </template>
 
