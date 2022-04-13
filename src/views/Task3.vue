@@ -66,7 +66,7 @@
           >
         </li>
         <li>
-          Jonathan Rießler:
+          Jonathan Rißler:
           <a href="mailto:jonathan.rissler@hs-furtwangen.de">jonathan.rissler@hs-furtwangen.de</a>
         </li>
       </List>

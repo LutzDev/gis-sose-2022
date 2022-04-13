@@ -75,8 +75,14 @@
     </Section>
     <Section headline="ESLint einrichten">
       <Text
-        >Laden Sie die <i>package.json</i> und die <i>.eslintrc.json</i> aus dem
-        Kurs herunter. Fügen sie beide Dateien in ihren Projektordner ein.</Text
+        >Laden Sie die
+        <a
+          target="_blank"
+          href="https://felix.hs-furtwangen.de/auth/RepositoryEntry/4072407874/CourseNode/105532938896093"
+          ><i>package.json</i> und die <i>.eslintrc.json</i></a
+        >
+        aus dem Kurs herunter. Fügen sie beide Dateien in ihren Projektordner
+        ein.</Text
       >
       <Text
         >Öffnen Sie ihren Ordner in Terminal, CMD, oder Powershell (PS: am
