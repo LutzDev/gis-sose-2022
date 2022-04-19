@@ -36,6 +36,49 @@
       </List>
     </Section>
   </Sections>
+  <Footer>
+    <FooterItem>
+      <IconHeadline headline="Nützliche Links" v-bind:info-icon="true" />
+      <List>
+        <li> <a target="_blank" href="https://blog.doubleslash.de/wie-priorisiere-ich-anforderungen-an-eine-softwareloesung/">MoSCoW-Methode</a></li>
+      </List>
+    </FooterItem>
+    <FooterItem>
+      <IconHeadline headline="Kontaktaufnahme" v-bind:contact-icon="true" />
+      <List headline="Medieninformatik:">
+        <li>
+          Philipp Oeschger:
+          <a href="mailto:p.oeschger@hs-furtwangen.de"
+          >p.oeschger@hs-furtwangen.de</a
+          >
+        </li>
+        <li>
+          Lutz Weigold:
+          <a href="l.weigold@hs-furtwangen.de">l.weigold@hs-furtwangen.de</a>
+        </li>
+      </List>
+      <br>
+      <List headline="OnlineMedien:">
+        <li>
+          Tim Scheifler:
+          <a href="mailto:tim.scheifler@hs-furtwangen.de"
+          >tim.scheifler@hs-furtwangen.de</a
+          >
+        </li>
+        <li>
+          Jonathan Rißler:
+          <a href="mailto:jonathan.rissler@hs-furtwangen.de">jonathan.rissler@hs-furtwangen.de</a>
+        </li>
+      </List>
+    </FooterItem>
+    <FooterItem>
+      <IconHeadline headline="Abgabetermin" v-bind:deadline-icon="true" />
+      <List>
+        <li>MIB: 24.04.22 - 18:00 Uhr</li>
+        <li>OMB: 25.04.22 18:00 Uhr</li>
+      </List>
+    </FooterItem>
+  </Footer>
 </template>
 
 <script>
