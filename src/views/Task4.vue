@@ -1,22 +1,25 @@
 <template>
   <Header
-      v-bind:example-button="false"
-      v-bind:script-button="true"
-      v-bind:print-button="true"
+    v-bind:example-button="false"
+    v-bind:script-button="true"
+    v-bind:print-button="true"
   />
   <h1>JavaScript: 1. Funktionaliät</h1>
   <Text
-  >Ab dieser Aufgabe werden Sie die Funktionalitäten, welche mittels der MoSCoW-Methode priorisiert wurden, umsetzen.
-  </Text
-  >
+    >Ab dieser Aufgabe werden Sie die Funktionalitäten, welche mittels der
+    MoSCoW-Methode priorisiert wurden, umsetzen.
+  </Text>
   <Sections>
     <Section headline="Umsetzung der ersten Funktionalität">
       <List>
         <Checkbox
-        >Wählen Sie eine Funktionalität, welche Sie zuvor mittels der MoSCoW-Methode definiert haben, und setzen Sie diese in JavaScript um.
+          >Wählen Sie <b>eine Funktionalität</b>, welche Sie zuvor mittels der
+          MoSCoW-Methode definiert haben, und setzen Sie diese in JavaScript um.
         </Checkbox>
         <Checkbox
-        >Machen Sie in der PDF, welche Sie zum Thema MoSCoW-Methode erstellt haben, kenntlich, welche Funktionalität Sie umgesetzt haben und fügen Sie diese Ihrem Projekt an.
+          >Machen Sie in der <b>PDF</b>, welche Sie zum Thema MoSCoW-Methode
+          erstellt haben, kenntlich, welche Funktionalität Sie umgesetzt haben
+          und fügen Sie diese Ihrem Projekt an.
         </Checkbox>
       </List>
     </Section>
@@ -25,9 +28,27 @@
     <FooterItem>
       <IconHeadline headline="Nützliche Links" v-bind:info-icon="true" />
       <List>
-        <li> <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/events/2">JavaScript-Funktionen</a></li>
-        <li> <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/events/3">JavaScript-Events</a></li>
-        <li> <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/canvas/3">JavaScript-Canvas</a></li>
+        <li>
+          <a
+            target="_blank"
+            href="https://heintz-s.github.io/GIS/lecture/events/2"
+            >JavaScript-Funktionen</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://heintz-s.github.io/GIS/lecture/events/3"
+            >JavaScript-Events</a
+          >
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://heintz-s.github.io/GIS/lecture/canvas/3"
+            >JavaScript-Canvas</a
+          >
+        </li>
       </List>
     </FooterItem>
     <FooterItem>
@@ -36,7 +57,7 @@
         <li>
           Philipp Oeschger:
           <a href="mailto:p.oeschger@hs-furtwangen.de"
-          >p.oeschger@hs-furtwangen.de</a
+            >p.oeschger@hs-furtwangen.de</a
           >
         </li>
         <li>
@@ -44,17 +65,19 @@
           <a href="l.weigold@hs-furtwangen.de">l.weigold@hs-furtwangen.de</a>
         </li>
       </List>
-      <br>
+      <br />
       <List headline="OnlineMedien:">
         <li>
           Tim Scheifler:
           <a href="mailto:tim.scheifler@hs-furtwangen.de"
-          >tim.scheifler@hs-furtwangen.de</a
+            >tim.scheifler@hs-furtwangen.de</a
           >
         </li>
         <li>
           Jonathan Rißler:
-          <a href="mailto:jonathan.rissler@hs-furtwangen.de">jonathan.rissler@hs-furtwangen.de</a>
+          <a href="mailto:jonathan.rissler@hs-furtwangen.de"
+            >jonathan.rissler@hs-furtwangen.de</a
+          >
         </li>
       </List>
     </FooterItem>
@@ -99,8 +122,8 @@ export default {
 
     let partyjs = document.createElement("script");
     partyjs.setAttribute(
-        "src",
-        "https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"
+      "src",
+      "https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"
     );
     document.head.appendChild(partyjs);
 
@@ -109,9 +132,8 @@ export default {
     checkBox.setAttribute("type", "module");
     document.head.appendChild(checkBox);
   },
-}
+};
 </script>
 
 <style scoped>
-
 </style>
