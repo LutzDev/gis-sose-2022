@@ -20,7 +20,7 @@
           />
         </svg>
       </button>
-      <a v-if="exampleButton === true" target="_blank">
+      <a v-if="exampleButton === true" :href="examplePage" target="_blank">
         <button
           class="bg-slate-200 py-2 px-2 rounded text-white dark:bg-slate-700 relative"
         >
@@ -110,7 +110,7 @@ export default {
   data() {
     return {
       scriptPage: "https://heintz-s.github.io/GIS/",
-      examplePage: "https://heintz-s.github.io/GIS/",
+      examplePage: "https://github.com/PhilippOesch/GIS_Beispiele_und_Hilfestellungen_SoSe2022",
     };
   },
   props: ["scriptButton", "exampleButton", "printButton"],

@@ -1,6 +1,6 @@
 <template>
   <Header
-    v-bind:example-button="false"
+    v-bind:example-button="true"
     v-bind:script-button="true"
     v-bind:print-button="true"
   />
