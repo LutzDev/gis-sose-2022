@@ -16,19 +16,32 @@
       <List>
         <Checkbox
           >Wählen Sie <b>eine Funktionalität</b>, welche Sie zuvor mittels der
-          MoSCoW-Methode definiert haben, und <b>erweitern</b> Sie diese Funktionalität
-          mit einer Interaktion mit dem Node.js Server <b>oder</b>
+          MoSCoW-Methode definiert haben, und <b>erweitern</b> Sie diese
+          Funktionalität mit einer Interaktion mit dem Node.js Server
+          <b>oder</b>
         </Checkbox>
         <Checkbox
-          >Wählen Sie <b>eine neue Funktionalität</b>, welche Sie zuvor mittels der
-          MoSCoW-Methode definiert haben und implementieren Sie diese
-          mit einer Interaktion mit dem Node.js Server.
+          >Wählen Sie <b>eine neue Funktionalität</b>, welche Sie zuvor mittels
+          der MoSCoW-Methode definiert haben und implementieren Sie diese
+          inklusive einer Interaktion mit dem Node.js Server.
         </Checkbox>
-        <hr>
+      </List>
+      <hr />
+      <List>
+        <Checkbox
+          >Machen Sie entweder eine GET- und/ oder eine POST-Anfrage.
+        </Checkbox>
         <Checkbox
           >Machen Sie in der <b>PDF</b>, welche Sie zum Thema MoSCoW-Methode
           erstellt haben, kenntlich, welche Funktionalität Sie umgesetzt haben
-          und fügen Sie diese Ihrem Projekt an.
+          und fügen Sie diese Ihrem Projekt an. </Checkbox
+        >
+      </List>
+    </Section>
+    <Section headline="Optional">
+      <List>
+        <Checkbox
+          >Bauen Sie mit SQLite eine relationale Datenbank auf.
         </Checkbox>
       </List>
     </Section>
@@ -40,36 +53,34 @@
         <li>
           <a
             target="_blank"
-            href="https://heintz-s.github.io/GIS/lecture/events/2"
-            >JavaScript-Funktionen</a
+            href="https://heintz-s.github.io/GIS/lecture/server-request/1"
+            >Webserver Kommunikation</a
           >
         </li>
         <li>
           <a
             target="_blank"
-            href="https://heintz-s.github.io/GIS/lecture/events/3"
-            >JavaScript-Events</a
+            href="https://heintz-s.github.io/GIS/lecture/server-request/3"
+            >fetch, Promise, async/ await</a
           >
         </li>
         <li>
           <a
             target="_blank"
-            href="https://heintz-s.github.io/GIS/lecture/canvas/3"
-            >JavaScript-Canvas</a
+            href="https://heintz-s.github.io/GIS/lecture/server-request/6"
+            >Node.js</a
           >
         </li>
         <li>
           <a
             target="_blank"
-            href="https://heintz-s.github.io/GIS/lecture/json-localStorage/1"
-            >LocalStorage</a
+            href="https://heintz-s.github.io/GIS/lecture/server-request/9"
+            >Node.js POST</a
           >
         </li>
         <li>
-          <a
-            target="_blank"
-            href="https://heintz-s.github.io/GIS/lecture/json-localStorage/8"
-            >JSON Konvertierung</a
+          <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/db/5"
+            >SQLite + Node.js</a
           >
         </li>
       </List>
