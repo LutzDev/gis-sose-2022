@@ -11,6 +11,7 @@ import Task3 from "../views/Task3.vue";
 import Task4 from "../views/Task4.vue";
 import Task5 from "../views/Task5.vue";
 import Task6 from "../views/Task6.vue";
+import Task7 from "../views/Task7.vue";
 import ProjectPlanning from "../views/ProjektPlanning.vue";
 import ESLintSetup from "../views/ESLintSetup.vue";
 
@@ -74,6 +75,11 @@ const routes = [
         path: `/Task6`,
         name: 'Task6',
         component: Task6
+    },
+    {
+        path: `/Task7`,
+        name: 'Task7',
+        component: Task7
     },
     {
         path: `/ProjectPlanning`,

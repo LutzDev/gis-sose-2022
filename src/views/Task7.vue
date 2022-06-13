@@ -4,44 +4,39 @@
     v-bind:script-button="true"
     v-bind:print-button="true"
   />
-  <h1>Node.js: 1. Funktionalität</h1>
+  <h1>NoSQL Datenbanken - MongoDB</h1>
   <Text
-    >In dieser Aufgabe sollen Sie eine Node.js-Server erstellen, der lokal auf
-    ihrem Rechner läuft. Ihre Aktuelle Seite (der Client) soll mit diesem Server
-    interagieren.
+    >In dieser Aufgabe sollen Sie eine Node.js-Server um eine MongoDB-Datenbank erweitern.
   </Text>
   <Sections>
     <Section headline="Umsetzung">
-      <Text>Wählen Sie nur eine von den ersten 2 Checkboxen.</Text>
       <List>
+        <Checkbox>
+          Installieren Sie <a target="_blank" href="https://www.mongodb.com/try/download/community">MongoDB</a>.
+        </Checkbox>
+        <Checkbox
+          >Erweitere Sie ihre Server interaktionen mit Datenbankzugriffen
+        </Checkbox>
         <Checkbox
           >Wählen Sie <b>eine Funktionalität</b>, welche Sie zuvor mittels der
           MoSCoW-Methode definiert haben, und <b>erweitern</b> Sie diese
-          Funktionalität mit einer Interaktion mit dem Node.js Server
-          <b>oder</b>
+          Funktionalität <b>oder</b> implementieren Sie eine <b>neue</b> Funktionalität.
         </Checkbox>
         <Checkbox
-          >Wählen Sie <b>eine neue Funktionalität</b>, welche Sie zuvor mittels
-          der MoSCoW-Methode definiert haben und implementieren Sie diese
-          inklusive einer Interaktion mit dem Node.js Server.
-        </Checkbox>
-      </List>
-      <hr />
-      <List>
-        <Checkbox
-          >Machen Sie entweder eine GET- und/ oder eine POST-Anfrage.
+          >Es soll möglich sein, durch eine POST-Anfrage Daten an den Server zu senden. Diese Daten sollen in der Datenbank gespeichert werden.
         </Checkbox>
         <Checkbox
-          >Machen Sie in der <b>PDF</b>, welche Sie zum Thema MoSCoW-Methode
-          erstellt haben, kenntlich, welche Funktionalität Sie umgesetzt haben
-          und fügen Sie diese Ihrem Projekt an. </Checkbox
-        >
+          >Es soll möglich sein, durch eine GET-Anfrage an den Server Daten aus der Datenbank zu erfragen.
+        </Checkbox>
       </List>
     </Section>
     <Section headline="Optional">
-      <List>
+       <List>
         <Checkbox
-          >Bauen Sie mit SQLite eine relationale Datenbank auf.
+          >Es soll möglich sein, durch eine DELETE-Anfrage Daten aus der Datenbank zu löschen.
+        </Checkbox>
+        <Checkbox
+          >Es soll möglich sein, durch eine PUT-Anfrage Daten in der Datenbank zu abzuändern.
         </Checkbox>
       </List>
     </Section>
@@ -79,8 +74,8 @@
           >
         </li>
         <li>
-          <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/db/5"
-            >SQLite + Node.js</a
+          <a target="_blank" href="https://heintz-s.github.io/GIS/lecture/db2/2"
+            >MongoDB</a
           >
         </li>
       </List>
@@ -118,8 +113,8 @@
     <FooterItem>
       <IconHeadline headline="Abgabetermin" v-bind:deadline-icon="true" />
       <List>
-        <li>MIB: 04.06.22 - 18:00 Uhr</li>
-        <li>OMB: 07.06.22 - 18:00 Uhr</li>
+        <li>MIB: 26.06.22 - 18:00 Uhr</li>
+        <li>OMB: 27.06.22 - 18:00 Uhr</li>
       </List>
     </FooterItem>
   </Footer>
